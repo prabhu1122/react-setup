@@ -1,9 +1,12 @@
 import './App.scss';
+import Home from './home/Home';
 
-export default App = () => {
+const App = () => {
   return (
     <div className="app">
-      prabhuDev
+      <Home/>
     </div>
   );
 }
+
+export default App;

@@ -1,9 +1,74 @@
 .listItem{
-  width: 120px;
-  height: 5rem;
-  background: white;
+  width: 130px;
+  height: 80px;
+  background: var(--main-color);
   margin-right: 10px;
-  span{
-    color: black;
+  overflow: hidden;
+  
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  video{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    font-size: 5px;
+    left: 0;
+  }
+  
+  .itemInfo{
+    padding: 5px;
+    .icons{
+
+      
+      .icon{
+        font-size: .8rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 0 2px;
+        padding: 3px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    .itemInfoTop{
+      margin-top: 4px;
+      font-size: .8rem;
+      
+      .ageLimit{
+        border: 1px solid white;
+        padding: 1px 4px;
+        margin: 4px 4px;
+        font-size: .7rem;
+        border-radius: 5px;
+      }
+    }
+    .desc{
+      font-size:  .6rem;
+      margin-top: .3rem;
+    }
+    .gerne{
+      font-size: .6rem;
+      font-weight: bold;
+    }
+  }
+  
+  &:hover{
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    top: -85px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(255,255,255,.5);
+    
+    img{
+      height: 100px;
+      object-fit: cover;
+    }
   }
 }

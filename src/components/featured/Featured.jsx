@@ -24,9 +24,9 @@ const Featured = ({type}) => {
           </select>
         </div>
     )}
-      <img width="100%" src="https://www.pexels.com/photo/7325567/download" alt="cover pic"/>
+      <img width="100%" src="http://m.gettywallpapers.com/wp-content/uploads/2020/04/Iron-Man-best-Wallpaper.jpg" alt="cover pic"/>
       <div className="info">
-        <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo"/>
+        <img src="https://pngimg.com/uploads/netflix/netflix_PNG32.png" alt="logo"/>
         <span className="desc">
           The lighter the value of sunlighte the more evaporation will accur and the chances of rain will increase.
         </span>

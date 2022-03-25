@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className= {isScrolled ? "navbar scrolled" : "navbar"}>
       <div className="container">
         <div className="left">
-          <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo"/>
+          <img src="https://pngimg.com/uploads/netflix/netflix_PNG32.png" alt="logo"/>
           <span>Homepage</span>
           <span>Series</span>
           <span>Movies</span>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <span class="material-icons">search</span>
           <p>Kid</p>
           <span class="material-icons">notifications</span>
-          <img src="https://www.pexels.com/photo/6866035/download/?search_query=&tracking_id=pxuwme2hsqk" alt="userlogo"/>
+          <img src="https://www.pexels.com/photo/6866035/download" alt="userlogo"/>
           
           <div className="profile">
             <span class="material-icons">arrow_drop_down</span>

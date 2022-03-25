@@ -19,7 +19,7 @@ const ListItem = ({index}) => {
       />
       {isHovered && (
         <div>
-          <video src={trailers[Math.floor(Math.random())]} autoPlay = {true} muted controls loop/>
+          <video src={trailers[1]} autoPlay = {true} muted controls loop/>
           <div className="itemInfo">
             <div className="icons">
               <span className="material-icons icon">play_arrow</span>
